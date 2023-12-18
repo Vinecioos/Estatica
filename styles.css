@@ -1,0 +1,106 @@
+    :root{
+    --cor-texto: #000000;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-image: url("assets/Tabela.png");
+        background-repeat: no-repeat;
+        background-size: 50%;
+       
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F5F5F5;
+        font-size: 16px;     
+    }
+    
+    .cabecalho__item{
+        display: flex;
+    }
+
+    .cabecalho__texto{
+        margin: 20px;
+        margin-right: 20px;
+        color:var(--cor-texto);
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .cabecalho__logout{
+        margin-right: 2px;
+        color:var(--cor-texto);
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .tabela{
+        position:relative;
+       
+    }
+
+    .celula1{
+        position: relative;
+        top: 45px;
+        left: 69px;
+    }
+
+    .celula2{
+        position: relative;
+        top: 83px;
+        left: 69px;
+    }
+
+    .celula3{
+        position: relative;
+        top: 122px;
+        left: 69px;
+    }
+
+    .celula4{
+        position: relative;
+        top: 162px;
+        left: 70px;
+    }   
+
+    .celula5{
+        position: relative;
+        top: 216px;
+        left: 141px;
+    }
+
+    .celula6{
+        position: relative;
+        top: 216px;
+        left: 170px;
+    }
+
+    .celula7{
+        position: relative;
+        top: 216px;
+        left: 202px;
+    }
+
+    .celula8{
+        position: relative;
+        top: 216px;
+        left: 235px;
+    }
+
+    .celula9{
+        position: relative;
+        top: 216px;
+        left: 268px;
+    }
+
+    .celula10{
+        position: relative;
+        top: 216px;
+        left: 300px;
+    }
